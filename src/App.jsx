@@ -72,7 +72,7 @@ function App() {
   };
 
   const formatDisplayDate = (dateStr) => {
-    const [year, month, day] = dateStr.split('/');
+    const [_year, month, day] = dateStr.split('/');
     return `${month}月${day}日`;
   };
 

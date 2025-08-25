@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './App.css';
 
-// 定数
 const REASONS = [
   "なんとなく良い感じがしたから",
   "AIの直感です！",
